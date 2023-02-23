@@ -45,9 +45,9 @@
                                 <a href="{{ url('/home') }}" class="nav-link active font-weight-bold text-blue">Home</a>
                             </li>
                             @else
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a href="{{ route('login') }}" class="nav-link font-weight-bold text-blue ">Log in</a>
-                            </li>
+                            </li> --}}
                                 {{-- @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a href="{{ route('register') }}" class="nav-link font-weight-bold text-blue">Register</a>
