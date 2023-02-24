@@ -17,6 +17,7 @@ body{
     background-color: #94d2ec;
     position:fixed !important;
     bottom: 0px !important;
+    height: 40px;
      /* bottom: 0px; */
 } 
 .font-lato{
