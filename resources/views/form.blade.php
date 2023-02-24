@@ -30,11 +30,11 @@ input, select{
 }
 
 @media screen and (max-width: 500px) {
-    .footer{
+    /* .footer{
         background-color: #94d2ec;
         position: fixed;
         bottom: 0px;
-    }
+    } */
 }
 </style>
         <section class="px-5 pt-3">
