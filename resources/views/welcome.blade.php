@@ -28,7 +28,7 @@
                         <a href="{{ route('create_form')}}" class="btn btn-lg rounded bg-pink  p-1 text-white w-50 text-center font-weight-bold btn-radius font-raleway" style="font-size: 1.8em;">ENTER TODAY</a>
                     </div>
  
-                    <a href="" class="text-dark small">*Terms & Conditions Apply</a>
+                    <a target="_blank" href="{{ asset('/images/tnc.pdf') }}" class="text-dark small">*Terms & Conditions Apply</a>
                 </div>
          </section>
 @endsection
