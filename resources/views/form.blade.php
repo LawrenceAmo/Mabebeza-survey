@@ -1,6 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    .hero_image{
+    width: 300px;
+    height: 300px;
+}
+</style>
         <section class="px-5 pt-3">
             <div class="row mx-0 animated fadeInDown">
                 <div class="col-12 text-center p-0 m-0">
@@ -11,7 +17,7 @@
                 <div class="col-md-6  d-flex flex-column justify-content-center ">
                     <form action="{{ route('save_form')}}" method="post" class="px-3" enctype="multipart/form-data">
                         @csrf
-                        <label for="">Parent Names</label>
+                        <label for="">Your Names</label>
 
                         <div class="row">
                             <div class="col-md-6 form-outline mb-2">
@@ -22,7 +28,7 @@
                             </div>
                         </div>
 
-                        <label for="">Baby Names</label>
+                        <label for="">Baby's Names</label>
                         <div class="row ">
                             <div class="col-md-6 form-outline mb-2">
                                 <input type="text" value="{{ old('child_name',$data["child_name"])}}" name="child_name" class="form-control form-control-md" placeholder="Name" />
@@ -57,12 +63,16 @@
                     </form>
                 </div>
                 <div class="col-md-6 text-center ">
-                    <p class="display-1 font-weight-bold text-white mb-0 pb-0" style="line-height: 1;">MABEBEZA</p>
+                    <p class="mabebeza-name  font-weight-bold text-white mb-0 pb-0" style="line-height: 1;font-size:110px;">MABEBEZA</p>
                     <p class=" m-0 pb-2" style="font-size: 3em;line-height: 1; font-family: 'Shantell Sans', cursive; color:#7f38bc">Cutie of the year</p>
-                    <div class="pl-3">
-                        <img src="{{ asset('/images/baby.png') }}" style="height: 300px; width:300px;" class=" shadow rounded-circle border " alt="">
+                    <div class="pl-3 hero_image_container">
+                        <img src="{{ asset('/images/PinkCircle.svg') }}" class="circle-pink" alt=""> 
+                        <img src="{{ asset('/images/PurpleCircle.svg') }}" class="circle-purple" alt=""> 
+                        <img src="{{ asset('/images/LightBlueCircle.svg') }}" class="circle-light-blue" alt=""> 
+            
+                        <img src="{{ asset('/images/baby.png') }}"    class=" mx-auto hero_image rounded-circle " alt="">
                     </div>                  
                 </div>
             </div>
-        </section>
+        </section> 
 @endsection
