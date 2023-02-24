@@ -15,8 +15,9 @@ body{
 
 .footer{
     background-color: #94d2ec;
-    position:absolute !important;
-    bottom:-150px !important;
+    position:fixed !important;
+    bottom: 0px !important;
+     /* bottom: 0px; */
 }
 .font-lato{
     font-family: 'Lato', sans-serif;
@@ -113,9 +114,7 @@ body{
         left: 10%;
         width: 150px;
     }
-    .footer{
-        bottom: -250px !important;
-    }
+  
 }
 
 @media screen and (max-width: 500px) {

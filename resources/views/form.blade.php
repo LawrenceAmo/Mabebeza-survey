@@ -6,8 +6,40 @@
     width: 300px;
     height: 300px;
 }
+::placeholder {
+    font-family: 'Raleway', sans-serif !important; 
+}
+input, select{
+    border-radius: 50px !important;
+}
+.circle-blue{
+    left: 10%;
+}
+.circle-light-blue{
+    top: 200px;
+    left: 15%;
+}
+.circle-purple{
+    /* top: 200px; */
+    bottom: -200px;
+
+    left: 10%;
+}
+.circle-pink{
+    top: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .footer{
+        background-color: #94d2ec;
+        position: fixed;
+        bottom: 0px;
+    }
+}
 </style>
         <section class="px-5 pt-3">
+            <img src="{{ asset('/images/PinkCircle.svg') }}" class="circle-pink" alt=""> 
+
             <div class="row mx-0 animated fadeInDown">
                 <div class="col-12 text-center p-0 m-0">
                     <p class="animated pulse w-100 pt-2">@include('inc.messages')</p>
@@ -58,15 +90,14 @@
                             <input type="file" value="{{ old('photo',$data["photo"])}}" name="photo" class="form-control form-control-md " style="border:none;" placeholder="Choose Photo" />
                         </div>
                         <div class="form-outline   text-center  ">
-                            <button type="submit" class="rounded font-weight-bold btn-sm btn-purple w-50" >submit</button>
+                            <button type="submit" class="btn-radius btn-purple btn btn-lg p-1 text-white w-50 text-center font-weight-bold btn-radius font-raleway" style="font-size: 1.8em;">submit</button>
                         </div> 
                     </form>
                 </div>
                 <div class="col-md-6 text-center ">
                     <p class="mabebeza-name  font-weight-bold text-white mb-0 pb-0" style="line-height: 1;font-size:110px;">MABEBEZA</p>
                     <p class=" m-0 pb-2" style="font-size: 3em;line-height: 1; font-family: 'Shantell Sans', cursive; color:#7f38bc">Cutie of the year</p>
-                    <div class="pl-3 hero_image_container">
-                        <img src="{{ asset('/images/PinkCircle.svg') }}" class="circle-pink" alt=""> 
+                    <div class="pl-5 hero_image_container">
                         <img src="{{ asset('/images/PurpleCircle.svg') }}" class="circle-purple" alt=""> 
                         <img src="{{ asset('/images/LightBlueCircle.svg') }}" class="circle-light-blue" alt=""> 
             
