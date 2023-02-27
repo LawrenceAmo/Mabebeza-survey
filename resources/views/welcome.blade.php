@@ -9,14 +9,14 @@
     
     }
 </style>
-        <section class="hero_container row  m-0 pt-5">
-            <img src="{{ asset('/images/PinkCircle.svg') }}" class="circle-pink" alt=""> 
-            <img src="{{ asset('/images/PurpleCircle.svg') }}" class="circle-purple" alt=""> 
-            <img src="{{ asset('/images/LightBlueCircle.svg') }}" class="circle-light-blue" alt=""> 
+        <section class="hero_container row  m-0 pt-5 mx-0 px-0">
+            <img src="{{ asset('/images/PinkCircle.svg') }}" loading="lazy"  class="circle-pink" alt=""> 
+            <img src="{{ asset('/images/PurpleCircle.svg') }}" loading="lazy"  class="circle-purple" alt=""> 
+            <img src="{{ asset('/images/LightBlueCircle.svg') }}" loading="lazy"  class="circle-light-blue" alt=""> 
 
                  <div class="hero_image_container col-md-5 text-center    d-flex flex-column justify-content-center">
                     {{-- loading="lazy" --}}
-                <img src="{{ asset('/images/baby.png') }}"    class=" mx-auto hero_image rounded-circle " alt="">
+                <img src="{{ asset('/images/baby.png') }}"  loading="lazy"   class=" mx-auto hero_image rounded-circle " alt="">
                 </div> 
                 <div class="hero_text_container col-md-7  text-center d-flex flex-column ">
                     <p class="  font-weight-bold text-white mb-0 pb-0 font-raleway mabebeza-name" style="line-height: 1; font-size:110px">MABEBEZA</p>
