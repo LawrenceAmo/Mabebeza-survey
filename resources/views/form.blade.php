@@ -96,7 +96,7 @@ input, select{
                 </div>
                 <div class="col-md-6 text-center ">
                     <p class="mabebeza-name  font-weight-bold text-white mb-0 pb-0" style="line-height: 1;font-size:110px;">MABEBEZA</p>
-                    <p class=" m-0 pb-2" style="font-size: 3em;line-height: 1; font-family: 'Shantell Sans', cursive; color:#7f38bc">Cutie of the year</p>
+                    <p class=" m-0 pb-2" style="font-size: 1.8em;line-height: 1.5; font-family: 'cuty-font', cursive; color:#7f38bc">Cutie of the year</p>
                     <div class="pl-5 hero_image_container">
                         <img src="{{ asset('/images/PurpleCircle.svg') }}" class="circle-purple" alt=""> 
                         <img src="{{ asset('/images/LightBlueCircle.svg') }}" class="circle-light-blue" alt=""> 

@@ -2,6 +2,10 @@ body{
     background-color: #a1d2d0 !important;
     font-family: 'Raleway', sans-serif !important; 
 }
+@font-face {
+    font-family: cuty-font;
+    src: url(./HelloCute.otf);
+}
 .text-blue{
     color: #312c93;
 }

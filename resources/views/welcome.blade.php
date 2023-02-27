@@ -20,7 +20,7 @@
                 </div> 
                 <div class="hero_text_container col-md-7  text-center d-flex flex-column ">
                     <p class="  font-weight-bold text-white mb-0 pb-0 font-raleway mabebeza-name" style="line-height: 1; font-size:110px">MABEBEZA</p>
-                    <p class=" m-0 pb-2 cuty-font" style="font-size: 3em;line-height: 1; font-family: 'Shantell Sans', cursive; color:#7f38bc">Cutie of the year</p>
+                    <p class=" m-0 pb-2 cuty-font" style="font-size: 1.8em;line-height: 1.5; font-family: 'cuty-font', cursive; color:#7f38bc">Cutie of the year</p>
                     <p class=" text-white p-0 font-raleway" style="font-size: 2.5em; line-height: 1;">
                         <span>Every baby is a cutie and</span>  <span  > we are looking for the</span>  <span> cutie of the year!</span>
                     </p>
