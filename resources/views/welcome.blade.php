@@ -16,7 +16,7 @@
 
                  <div class="hero_image_container col-md-5 text-center    d-flex flex-column justify-content-center">
                     {{-- loading="lazy" --}}
-                <img src="{{ asset('/images/baby.png') }}"  loading="lazy"   class=" mx-auto hero_image rounded-circle " alt="">
+                <img src="{{ asset('/images/baby.png') }}"  loading="lazy"   class=" bg-white mx-auto hero_image rounded-circle " alt="">
                 </div> 
                 <div class="hero_text_container col-md-7  text-center d-flex flex-column ">
                     <p class="  font-weight-bold text-white mb-0 pb-0 font-raleway mabebeza-name" style="line-height: 1; font-size:110px">MABEBEZA</p>
@@ -25,10 +25,10 @@
                         <span>Every baby is a cutie and</span>  <span  > we are looking for the</span>  <span> cutie of the year!</span>
                     </p>
                     <div class="">
-                        <a href="{{ route('create_form')}}" class="btn btn-lg rounded bg-pink  p-1 text-white w-50 text-center font-weight-bold btn-radius font-raleway" style="font-size: 1.8em;">ENTER TODAY</a>
+                        <a href="{{ route('create_form')}}" class="btn shadow-none btn-lg rounded bg-pink  p-1 text-white w-50 text-center font-weight-bold btn-radius font-raleway" style="font-size: 1.8em;">ENTER TODAY</a>
                     </div>
  
-                    <a target="_blank" href="{{ asset('/images/tnc.pdf') }}" class="text-dark small">*Terms & Conditions Apply</a>
+                    <a target="_blank" href="{{ asset('/images/tnc.pdf') }}" class="text-dark small ">*Terms & Conditions Apply</a>
                 </div>
          </section>
 @endsection

@@ -7,7 +7,7 @@ body{
     src: url(./HelloCute.otf);
 }
 .text-blue{
-    color: #312c93;
+    color: #312c93; 
 }
 .bg-pink{
     background-color: #f6a3ab !important;
