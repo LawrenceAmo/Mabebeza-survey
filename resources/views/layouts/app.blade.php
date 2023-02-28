@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
          <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Mabebeza Survey</title>
+        <title>Mabebeza Cutie of the Year</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -18,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Franklin:wght@300&family=Raleway:wght@500;900&display=swap" rel="stylesheet">
  
         <style>
-            p span {
+            p span {   
             display: block;
             }
             span{
