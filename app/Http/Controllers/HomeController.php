@@ -18,8 +18,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        
-        return view('home');
+       $data = Form::get();
+        // return $data;
+        return view('home')->with('data', $data);
     }
 
     public function create(Request $request, $data=[])
