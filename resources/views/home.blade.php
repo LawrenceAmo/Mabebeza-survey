@@ -7,19 +7,19 @@
         /* font-size: 900px; */
     }
 </style>
+{{ session('status')}}
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header d-flex justify-content-between">{{ __('Survey Data') }}
                     <form class="" method="POST" action="{{ route('logout') }}">
-                    @csrf
-                    <button type="submit" class="btn btn-sm btn-outline-info rounded m-0">Log Out</button>
+                        @csrf
+                        <button type="submit" class="btn btn-sm btn-outline-blue rounded m-0">Log Out</button>
                     </form> 
                 </div>
 
-                <div class="card-body">
-                    
+                <div class="card-body">                    
                     <table class="table table-striped table-inverse table-responsive">
                         <thead class="thead-inverse">
                             <tr class="bg-dark rounded text-light font-weight-bold">
