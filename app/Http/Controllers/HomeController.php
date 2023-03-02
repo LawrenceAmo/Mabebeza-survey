@@ -25,21 +25,21 @@ class HomeController extends Controller
 
     public function create(Request $request, $data=[])
     {
-        // if (!$request->has([
-        //     'parent_name' , 'parent_surname' , 'child_name' , 'child_surname' , 'reciept' , 'email' , 'cell_number' , 'store' , 'photo' ,
-        //  ])) {
-        //     $data = [
-        //         'parent_name' => '',
-        //         'parent_surname' => '',
-        //         'child_name' => '',
-        //         'child_surname' => '',
-        //         'reciept' => '',
-        //         'email' => '',
-        //         'cell_number' => '',
-        //         'store' => '',
-        //         'photo' => '',
-        //  ];
-        //   }
+        if (!$request->has([
+            'parent_name' , 'parent_surname' , 'child_name' , 'child_surname' , 'reciept' , 'email' , 'cell_number' , 'store' , 'photo' ,
+         ])) {
+            $data = [
+                'parent_name' => '',
+                'parent_surname' => '',
+                'child_name' => '',
+                'child_surname' => '',
+                'reciept' => '',
+                'email' => '',
+                'cell_number' => '',
+                'store' => '',
+                'photo' => '',
+         ];
+          }
         return view('form')->with('data',$data);
     }
 
