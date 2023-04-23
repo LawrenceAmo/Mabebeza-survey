@@ -57,16 +57,16 @@
                 </ul>
             </div>
         </nav> --}}
-        <div class="d-flex justify-content-center pt-5">
+        <div class="d-flex justify-content-center pt-3">
             <img src="{{ asset('/images/BlueCircle.svg') }}" class="circle-blue" alt=""> 
-            <a class="" href="/"><img src="{{ asset('/logo.png') }}"  style="width: 100px;z-index:10;" class=" m-0 ml-3" alt=""></a>
+            <a class="" href="/"><img src="{{ asset('/logo.png') }}"  style="width: 230px;z-index:10;" class=" m-0 ml-3" alt=""></a>
         </div>
         <main class="py-4">
             @yield('content')
         </main>
         <div class="  w-100 p-2 footer" style="">
             <p class="text-white text-center">
-                Safe & secure shopping with many ways to pay. Free delivery and returns
+                One-stop-shop with GREAT PRICES for baby'sessentials. Shop 32A Tembisa Megamart & Shop 91A Bambanani Mall in Diepsloot.
             </p>
         </div>
  

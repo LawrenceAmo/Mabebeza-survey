@@ -101,7 +101,7 @@ input, select{
                         <img src="{{ asset('/images/PurpleCircle.svg') }}" class="circle-purple" alt=""> 
                         <img src="{{ asset('/images/LightBlueCircle.svg') }}" class="circle-light-blue" alt=""> 
             
-                        <img src="{{ asset('/images/baby.png') }}" class="bg-white mx-auto hero_image rounded-circle " alt="">
+                        <img src="{{ asset('/images/baby.png') }}" class="rounded-circle p-2 bg-white mx-auto hero_image  " alt="">
                     </div>
                 </div>
             </div>
