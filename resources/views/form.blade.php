@@ -78,20 +78,27 @@ input, select{
                             </select>
                         </div>
                         <div class="form-outline mb-3">
+                            {{-- <label for="">Receipt number</label> --}}
                             <input type="text" value="{{ old('reciept',$data["reciept"])}}" name="reciept" class="form-control form-control-md " placeholder="Receipt number" />
                         </div>
                         <div class="form-outline mb-3">
+                            {{-- <label for="">Email Address</label> --}}
                             <input type="email" value="{{ old('email',$data["email"])}}" name="email" class="form-control form-control-md " placeholder="Email Address" />
                         </div>
                         <div class="form-outline mb-3">
+                            {{-- <label for="">Cell Number</label> --}}
                             <input type="tel" value="{{ old('cell_number',$data["cell_number"])}}" name="cell_number" class="form-control form-control-md " placeholder="Cell Number" />
                         </div>
                         <div class="form-outline mb-3">
-                            <input type="file" value="{{ old('photo',$data["photo"])}}" name="photo" class="form-control form-control-md " style="border:none;" placeholder="Choose Photo" />
+                            <label class=" ">
+                                Baby Photo
+                                {{-- <span id=""></span> --}}
+                                <input type="file" value="{{ old('photo',$data["photo"])}}" name="photo" class="form-control  form-control-md border-0" style="border:none;" placeholder="" />
+                            </label>
                         </div>
-                        <div class="form-outline   text-center  ">
+                        <div class="form-outline   text-center">
                             <button type="submit" class="btn-radius btn-purple btn btn-lg p-1 text-white w-50 text-center font-weight-bold btn-radius font-raleway" style="font-size: 1.8em;">submit</button>
-                        </div> 
+                        </div>
                     </form>
                 </div>
                 <div class="col-md-6 text-center ">

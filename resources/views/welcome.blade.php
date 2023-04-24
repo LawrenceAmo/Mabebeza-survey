@@ -16,7 +16,7 @@
                  <div class=" col-md-5 text-center d-flex flex-column justify-content-center">
                     {{-- loading="lazy" --}}
                     <div class=" rounded-circle hero_image_container ">
-                        <img src="{{ asset('/images/baby.png') }}"  loading="lazy"   class=" rounded-circle p-2 mx-auto hero_image  " alt="">
+                        <img src="{{ asset('/images/baby.png') }}"  loading="lazy"    class=" rounded-circle p-2 mx-auto hero_image  " alt="">
                     </div>
                 </div> 
                 <div class="hero_text_container col-md-7  text-center d-flex flex-column ">

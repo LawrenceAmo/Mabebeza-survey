@@ -52,12 +52,12 @@ body{
     height: 400px; 
     background: #ffffff;
 }
-.hero_image_container{
+/* .hero_image_container{ */
      /* border: 3px solid black; */
      /* width: 400px;
      height: 400px;
      background: #ffffff; */
-}
+/* } */
 /* 3
 4165 cameroon str tembisa  Stokkafela Address
 */
@@ -85,8 +85,8 @@ body{
 .circle-light-blue{
     z-index: -1;
     position: absolute;
-    bottom: 100px;
-    left: 5%;
+    bottom: 50px;
+    left: 3%;
     width: 200px;
 }
 
